@@ -7,7 +7,9 @@
 }
 
 .header {
+    margin-top: 20px;
     padding: 10px 5px 15px;
+    border-top: 5px solid #F9D923;
     letter-spacing: 1px;
 }
 .header .judul {
@@ -93,4 +95,31 @@ body {
     background-color: #333;
     text-align: center;
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    .hero{
+        background-position: 50% 50%;
+        background-size: cover;
+
+    }
+    .header .judul{
+        font-size: 35px;
+    }
+    .content .penulis a:hover{
+        font-size: 15px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .content p {
+        font-size: 14px;
+        word-spacing: 0.5px;
+    }
 }

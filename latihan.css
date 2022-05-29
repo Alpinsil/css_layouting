@@ -1,0 +1,96 @@
+.container {
+    margin: auto;
+    width: 800px;
+    background-color: #2155CD;
+    font-family: 'Courier New', Courier;
+    color: #fff;
+}
+
+.header {
+    padding: 10px 5px 15px;
+    letter-spacing: 1px;
+}
+.header .judul {
+    padding-left: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.header ul li a {
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+}
+
+.header a:hover {
+    font-size: 20px;
+    background-color: #F66B0E;
+    padding: 10px;
+    border-radius: 50%;
+    border-right: 5px solid white;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png);
+
+}
+
+.hero {
+    height: 280px;
+    background-image: url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: 0px -130px;
+    padding: 10px 0px;
+    border-top: 5px solid #F9D923;
+    border-bottom: 5px solid #F9D923;
+}
+
+.content {
+    padding: 10px 0px 10px 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: #F9D923;
+}
+
+.content .penulis a:hover{
+    color: #2155CD;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border-right: 5px solid #F66B0E;
+}
+
+.content p {
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}

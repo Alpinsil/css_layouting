@@ -290,11 +290,11 @@ background-position: 0;
     }
 
     .content .info h2{
-        font-size: 45px;
+        font-size: 40px;
         line-height: 50px;
     }
 
-    .content .info h2 span{
+    .content .info span{
         font-size: 40px;
         font-weight: 600;
     }
@@ -310,7 +310,7 @@ background-position: 0;
         line-height: 40px;
     }
 
-    .content .info h2 span{
+    .content .info span{
         font-size: 30px;
         font-weight: 600;
     }

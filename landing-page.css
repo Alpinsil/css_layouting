@@ -35,7 +35,20 @@ header {
 
 
 header .logo {
+    background-image: linear-gradient(
+    to right,
+    #fff,
+    #fff 50%,
+    black 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
     position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
     color: #000;
     font-size: 30px;
     text-decoration: none;
@@ -73,22 +86,49 @@ header .navigation a:hover{
     margin: 60px 100px;
 }
 
-/* edit tulisan h2 Like Nature */
-.content .info h2{
-    color: #226a80;
+/* edit tulisan h2 Save Nature */
+.content .info h2 {
+    background-image: linear-gradient(
+    to right,
+    #fff,
+    #fff 50%,
+    #226a80 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 60px;
-    margin-bottom: 30px;
 }
 
-/* edit tulisan Be Creative */
-.content .info h2 span{
+/* edit tulisan Save You */
+.content .info .second-line{
+    background-image: linear-gradient(
+    to right,
+    #226a80,
+    #226a80 50%,
+    #fff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    text-transform: uppercase;
     color: #fff;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* edit tulisan paragraf di bawah like nature dan be creative */
@@ -153,6 +193,38 @@ label{
     text-align: center;
     padding: 10px;
 }
+
+.animated:before, .content .info h2:before {
+    content: '';
+    background: #54cdd6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}  
+
+.content .info .second-line:before {
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}  
+
+.animated:hover, .content .info h2:hover, .content .info .second-line:hover {
+background-position: 0;
+}
+
+.animated:hover::before, .content .info h2:hover:before, .content .info .second-line:hover:before{
+    width: 100%;
+    } 
 
 /* Responsive styles */
 

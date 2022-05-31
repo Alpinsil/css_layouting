@@ -1,0 +1,139 @@
+.container {
+    margin: auto;
+    width: 960px;
+    background-color: #C4DDFF;
+    font-family: 'Courier New', Courier;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.header {
+    padding: 0px 0px 15px;
+    letter-spacing: 1px;
+    background-color: #001D6E;
+
+}
+.header .judul {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px; 
+    padding-left: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.header ul li a {
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+}
+
+.header a:hover {
+    font-size: 20px;
+    background-color: #F66B0E;
+    padding: 10px;
+    border-radius: 50%;
+    border-right: 5px solid white;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower.png);
+
+}
+/* untuk mengatur warna garis pembatas horizontal */
+.header{
+    border-top: 10px solid 
+    #333;
+}
+.hero{
+    border-top: 10px solid 
+    #333;
+    border-bottom: 10px solid 
+    #333;
+    margin: auto;
+    height: 380px;
+    /* background-image: url(https://i.ibb.co/FmLxR96/photo-2022-05-30-12-28-44.jpg); */
+    background-image: url(https://cdn.forbes.com.mx/2021/08/Laptops-Huawei-uno-e1628037162147.jpg);
+    background-size: cover;
+    background-position: 0px -5px;
+    padding: 30px 0px;
+
+}
+
+.content {
+    padding: 10px 0px 10px 20px;
+    color: navy;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: navy;
+}
+
+.content .penulis a:hover{
+    color: #2155CD;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border-right: 5px solid #F66B0E;
+}
+
+.content p {
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+    .hero{
+        background-position: 50% 50%;
+        background-size: cover;
+
+    }
+    .header .judul{
+        font-size: 35px;
+    }
+    .content .penulis a:hover{
+        font-size: 15px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .content p {
+        font-size: 14px;
+        word-spacing: 0.5px;
+    }
+}
